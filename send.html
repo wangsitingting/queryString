@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>send</title>
+</head>
+<body>
+<input type="text" id ="input" >  
+<input type="button"  value="send"  onclick="Send()">
+  <script>
+    function Send(){  
+        var  getval =document.getElementById("input").value;  
+        window.location.href="get.html?cc="+getval;  
+      }  
+  </script>
+</body>
+</html>

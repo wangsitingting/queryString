@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>get</title>
+</head>
+<body onload="showvalf()" style="background-color:yellow;">  
+<div id="get"></div>
+  <script>
+  var URL = document.URL;  
+  var Val =URL.split('?')[1];  
+  var showval= Val.split("=")[1];  
+  function  showvalf(){  
+     document.getElementById('get').innerHTML=showval;
+  }  
+  </script>
+</body>
+</html>
